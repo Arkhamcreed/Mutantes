@@ -3,10 +3,21 @@
 # Creación de la matriz
 def crearMatriz():
     matriz = []
-    for _ in range(6):
-        fila = input("Ingresa la primera secuencia de bases nistrogenadas (sin espacios) que será almacenada y ordenada en forma de fila: ").upper()
+    for i in range(6):
+        fila = input(f"Ingresa la secuencia número {i+1} (sin espacios) que será almacenada y ordenada en forma de fila: ").upper()
+        while not validarEntrada(fila):
+            print("Por favor, ingresa solo A, C, G o T (Bases Nitrogenadas), y recuerda que deben ser 6 las bases ingresadas por fila")
+            fila=input("Intenta nuevamente: ").upper()
         matriz.append(list(fila))
     return matriz
+
+
+# Función para validar la entrada del usuario
+
+def validarEntrada(entrada):
+    basesValidas=set("ACTG")
+    return len(entrada) == 6 and all (base in basesValidas for base in entrada)
+
 
 #Mostramos la matriz construida por pantalla
 def imprimirMatriz(matriz):
@@ -144,7 +155,7 @@ else:
 ##Le mostramos al operador los datos obtenidos:
 
 if EsMutante==True:
-    print("El sujeto es mutante")
+    print("El sujeto es mutante. Orden de búsqueda ya emitido.")
 elif EsMutante==False:
     print("El sujeto no es mutante")
 
