@@ -1,7 +1,7 @@
 
 
 # Creación de la matriz
-def crear_matriz():
+def crearMatriz():
     matriz = []
     for _ in range(6):
         fila = input("Ingresa la primera secuencia de bases nistrogenadas (sin espacios) que será almacenada y ordenada en forma de fila: ").upper()
@@ -9,7 +9,7 @@ def crear_matriz():
     return matriz
 
 #Mostramos la matriz construida por pantalla
-def imprimir_matriz(matriz):
+def imprimirMatriz(matriz):
     for fila in matriz:
         print(" ".join(fila))
     print()
@@ -95,12 +95,16 @@ def RecorrerDireccionHorizontalYVertical (matriz , direccion):
     return resultado
 
 
-print("A continuación, Introduzca la secuencia genética completa del sujeto según se especifique: ")
-dna =crear_matriz()
+print("Iniciando Programa de análisis genético...")
+print(" \n \nADVERTENCIA\n \n No ejecute éste programa más allá de los límites preestablecidos. Es imperativo no acceder a  ésta información en un área que no esté protegida del alcance del Charles Xavier")
+
+
+print("A continuación, Introduzca la secuencia genética completa del sujeto a analizar según se especifique: ")
+dna =crearMatriz()
 
 #Procedemos a mostrar la matriz ingresada por pantalla:
 print("Ordenamiento de la secuencia de ADN ingresada: ")
-imprimir_matriz(dna)
+imprimirMatriz(dna)
 
 ## Análisis de Segmentos Horizontales:  ---------------
 
@@ -143,3 +147,5 @@ if EsMutante==True:
     print("El sujeto es mutante")
 elif EsMutante==False:
     print("El sujeto no es mutante")
+
+print("Cerrando programa de análisis genético...")
