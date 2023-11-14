@@ -129,21 +129,21 @@ imprimirMatriz(dna)
 #  
 # *#
 horizontal= RecorrerDireccionHorizontalYVertical(dna, "horizontal")
-print("Segmento/s horizontal/es: ",horizontal)
+print("Segmento/s de código genético horizontal/es: ",horizontal)
 vertical= RecorrerDireccionHorizontalYVertical(dna , "vertical")
-print("Segmento/s vertical/es: ",vertical)
+print("Segmento/s de código genético vertical/es: ",vertical)
 #* Análisis de Segmentos Oblicuos : \        /
 #                                    \      /
 #                                     \    /  
 # *#
 oblicua1= RecorrerDirecciónOblicuaNegativa(dna)
-print("Segmento/s oblicuo/s con pendiente negativa: ",oblicua1)
+print("Segmento/s de código genético oblicuo/s con pendiente negativa: ",oblicua1)
 oblicua2=RecorrerDirecciónOblicuaPositiva(dna)
-print("Segmento/s oblicuo/s con pendiente positiva: ",oblicua2)
+print("Segmento/s de código genético oblicuo/s con pendiente positiva: ",oblicua2)
 
 ##Sumo los resultados obetnidos en cada análisis direccional
 GenM=horizontal+vertical+oblicua1+oblicua2
-print("Cantidad de secuencias mutadas: ",GenM)
+print("Cantidad de secuencias de bases nitrogenadas mutadas: ",GenM)
 #Una vez obtenido todo el análisis en cada dirección, decidiremos si el sujeto es Mutante o no
 
 
