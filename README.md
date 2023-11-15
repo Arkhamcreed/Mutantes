@@ -9,7 +9,7 @@ El código desarrollado en el archivo "HallarMutantes.py" consiste en la detecci
 El usuario va a ingresar por consola secuencias de bases nitrogenadas que serán incluidas en la matriz a modo de filas, para luego, mediante diversas operaciones,
 ser capaces de concluir si hay almenos 2 secuencias de 4 bases nitrogenadas consecutivas (en cualquier dirección) contenidas en la matriz.
 
-## Cómo lo resolvimos
+## Cómo lo resolví
 
 Al principio del proyecto, surgieron múltiples ideas posibles para afrontar el problema. Se pensó luego de mucha meditación, que la opción más lógica era la de desarrollar diferentes anlisis por separado, cada uno asignado a cada direccion posible que podia adoptar un segmento de 4 elementos similares:
 
@@ -18,8 +18,7 @@ Al principio del proyecto, surgieron múltiples ideas posibles para afrontar el 
 . Dirección Horizontal
 . Dirección Vertical
 
-El primer problema que surgió fue el hecho de salir de rango constantemente en los análisis de las direcciones direccionales. La primera medida que se me ocurrió fue la de agregar a la matriz 3 filas nulas arriba y abajo de la matriz, así como también 3 columnas nulas a cada lado de la matriz. Hay pruebas de ésta primera versión del código en el archivo llamado borrador.py
-
+El primer problema que surgió fue el hecho de salir de rango constantemente en los análisis de las direcciones direccionales. La primera medida que se me ocurrió fue la de agregar a la matriz 3 filas nulas arriba y abajo de la matriz, así como también 3 columnas nulas a cada lado de la matriz. 
 Teniendo la anterior premisa, se crearon un total de 3 funciones incluidas en el programa:
 
 "def RecorrerDirecciónOblicuaNegativa (matriz):"  Recorre la matriz trazando diagonales de pendiente negativa como su nombre lo indica. Recibe como parámetro la matriz a analizar.
