@@ -1,6 +1,6 @@
 # Mutantes
 *Nombre y Apellido:  Emiliano García
-*Legajo:  53801
+*Legajo:  51543
 *Email:  emifacherogarcia@gmail.com
 
 ## De qué trata el código
@@ -39,8 +39,12 @@ Luego de analizar la matriz en todas sus posibles direcciones, se determina si e
 
 ## Cómo correrlo
 
+Debe ejecutar el archivo HallarMutantes.py, el cual está diseñado para ser operado mediante una ventana de comandos. 
 '''
 
-print(código)
+py HallarMutantes.py
 
 '''
+No se preocupe por no entender lo que se debe hacer en el programa, ya que hay muchas indicaciones que se mostrarán por pantalla, contemplando incluso casos en los que ingrese valores incorrectos para el proceso a realizar.
+
+De todas formas, aquí va una breve explicación de lo que el operador debe hacer: Ingresar sin espacios 6 caracteres los cuales serán las 4 iniciales de las bases nitrogenadas existentes en el genoma humano: Adenina (A), Citosina (C), Timina (T), Guanina (G). Hasta ahí llega la intervención del operador, el resto lo hace el programa. 
