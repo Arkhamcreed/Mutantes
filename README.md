@@ -11,7 +11,7 @@ ser capaces de concluir si hay almenos 2 secuencias de 4 bases nitrogenadas cons
 
 ## ¿Cómo lo resolví?
 
-Al principio del proyecto, surgieron múltiples ideas posibles para afrontar el problema. Se pensó luego de mucha meditación, que la opción más lógica era la de desarrollar diferentes anlisis por separado, cada uno asignado a cada direccion posible que podia adoptar un segmento de 4 elementos similares:
+Al principio del proyecto, surgieron múltiples ideas posibles para afrontar el problema. Se pensó luego de mucha meditación, que la opción más lógica era la de desarrollar diferentes análisis por separado, cada uno asignado a cada direccion posible que podia adoptar un segmento de 4 elementos similares:
 
 . Dirección oblicua con pendiente Positiva
 . Dirección oblicua con pendiente Negativa
