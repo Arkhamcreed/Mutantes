@@ -3,13 +3,13 @@
 *Legajo:  51543
 *Email:  emifacherogarcia@gmail.com
 
-## De qué trata el código
+## ¿De qué trata el código?
 
 El código desarrollado en el archivo "HallarMutantes.py" consiste en la detección de segmentos de caracteres similares contenidos en una matriz estática cuadrada 6x6.
 El usuario va a ingresar por consola secuencias de bases nitrogenadas que serán incluidas en la matriz a modo de filas, para luego, mediante diversas operaciones,
 ser capaces de concluir si hay almenos 2 secuencias de 4 bases nitrogenadas consecutivas (en cualquier dirección) contenidas en la matriz.
 
-## Cómo lo resolví
+## ¿Cómo lo resolví?
 
 Al principio del proyecto, surgieron múltiples ideas posibles para afrontar el problema. Se pensó luego de mucha meditación, que la opción más lógica era la de desarrollar diferentes anlisis por separado, cada uno asignado a cada direccion posible que podia adoptar un segmento de 4 elementos similares:
 
@@ -38,7 +38,7 @@ Luego de analizar la matriz en todas sus posibles direcciones, se determina si e
 
 
 
-## Cómo correrlo
+## ¿Cómo correrlo?
 
 Debe ejecutar el archivo HallarMutantes.py, el cual está diseñado para ser operado mediante una ventana de comandos. 
 ```
