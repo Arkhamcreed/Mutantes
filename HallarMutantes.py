@@ -114,7 +114,7 @@ print("A continuación, Introduzca la secuencia genética completa del sujeto a 
 dna =crearMatriz()
 
 #Procedemos a mostrar la matriz ingresada por pantalla:
-print("Ordenamiento de la secuencia de ADN ingresada: ")
+print("Ordenamiento de la secuencia de ADN ingresada: \n")
 imprimirMatriz(dna)
 
 ## Análisis de Segmentos Horizontales:  ---------------
