@@ -5,7 +5,7 @@
 
 ## De qué trata el código
 
-El código desarrollado consiste en la detección de segmentos de caracteres similares contenidos en una matriz estática cuadrada 6x6.
+El código desarrollado en el archivo "HallarMutantes.py" consiste en la detección de segmentos de caracteres similares contenidos en una matriz estática cuadrada 6x6.
 El usuario va a ingresar por consola secuencias de bases nitrogenadas que serán incluidas en la matriz a modo de filas, para luego, mediante diversas operaciones,
 ser capaces de concluir si hay almenos 2 secuencias de 4 bases nitrogenadas consecutivas (en cualquier dirección) contenidas en la matriz.
 
@@ -18,7 +18,7 @@ Al principio del proyecto, surgieron múltiples ideas posibles para afrontar el 
 . Dirección Horizontal
 . Dirección Vertical
 
-El primer problema que surgió fue el hecho de salir de rango constantemente en los análisis de las direcciones direccionales. La primera medida que se me ocurrió fue la de agregar a la matriz 3 filas nulas arriba y abajo de la matriz, así como también 3 columnas nulas a cada lado de la matriz.
+El primer problema que surgió fue el hecho de salir de rango constantemente en los análisis de las direcciones direccionales. La primera medida que se me ocurrió fue la de agregar a la matriz 3 filas nulas arriba y abajo de la matriz, así como también 3 columnas nulas a cada lado de la matriz. Hay pruebas de ésta primera versión del código en el archivo llamado borrador.py
 
 Teniendo la anterior premisa, se crearon un total de 3 funciones incluidas en el programa:
 
@@ -37,14 +37,16 @@ Se creó una función para que el usuario pudiese ingresar los datos de la matri
 Luego de analizar la matriz en todas sus posibles direcciones, se determina si el sujeto analizado es o no mutante, y se deja explícito al usuario.
 
 
+
+
 ## Cómo correrlo
 
 Debe ejecutar el archivo HallarMutantes.py, el cual está diseñado para ser operado mediante una ventana de comandos. 
-'''
+```
 
 py HallarMutantes.py
 
-'''
+```
 No se preocupe por no entender lo que se debe hacer en el programa, ya que hay muchas indicaciones que se mostrarán por pantalla, contemplando incluso casos en los que ingrese valores incorrectos para el proceso a realizar.
 
 De todas formas, aquí va una breve explicación de lo que el operador debe hacer: Ingresar sin espacios 6 caracteres los cuales serán las 4 iniciales de las bases nitrogenadas existentes en el genoma humano: Adenina (A), Citosina (C), Timina (T), Guanina (G). Hasta ahí llega la intervención del operador, el resto lo hace el programa. 
