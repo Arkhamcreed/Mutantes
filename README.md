@@ -41,7 +41,7 @@ Luego de analizar la matriz en todas sus posibles direcciones, se determina si e
 ## ¿Cómo correrlo?
 
 Primero, cree una carpeta en su PC y clone el siguiente repositorio de GITHUB utilizando el siguiente link: https://github.com/Arkhamcreed/Mutantes.git
-Luego, abrir la carpeta en la cual clono el repositorio en Visual Studio Code. Una vez abierta la carpeta dirigirse al archivo HallarMutantes.py en la carpeta Mutantes y ejecútelo
+Luego, abra la carpeta en la cual clonó el repositorio en Visual Studio Code. Una vez abierta la carpeta dirigirse al archivo HallarMutantes.py en la carpeta Mutantes y ejecútelo
 
 El archivo HallarMutantes.py está diseñado para ser operado mediante una ventana de comandos. 
 ```
