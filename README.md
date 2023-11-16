@@ -76,4 +76,4 @@ Ingrese como filas (Sin espacios) a medida que el programa se lo indique:
 
 
 ```
-Luego, compruebe que el programa le devolverá 1 segmento de cada dirección, y por ende, que el Sujeto es Mutante
+Luego, compruebe que el programa le devolverá que hay 1 segmetno mutado en cada dirección, y por ende, que el Sujeto es Mutante
