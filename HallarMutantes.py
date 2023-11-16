@@ -61,7 +61,7 @@ def RecorrerDirecciónOblicuaNegativa (matriz):
 def RecorrerDirecciónOblicuaPositiva (matriz):
 
 
-##Caso pendiente negativa:
+##Caso pendiente positiva:
     resultado=0
     for i in range(0,3,1):
         for j in range(5,2,-1):
