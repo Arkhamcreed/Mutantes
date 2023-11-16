@@ -63,17 +63,20 @@ Ingrese como filas (Sin espacios) a medida que el programa se lo indique:
 
 ```
     ACCTTG
-    
+``` 
+```
     TATGAG
-    
+```
+```
     GTAGCG
-    
+```
+```
     TTCACG
-    
+```
+```
     CCTTGA
-    
+```
+```
     TCCCCA
-
-
 ```
 Luego, compruebe que el programa le devolverá que hay 1 segmetno mutado en cada dirección, y por ende, que el Sujeto es Mutante
