@@ -49,9 +49,7 @@ Luego, abra la carpeta en la cual clonó el repositorio en Visual Studio Code. U
 
 El archivo HallarMutantes.py está diseñado para ser operado mediante una ventana de comandos. 
 ```
-
-py HallarMutantes.py
-
+HallarMutantes.py
 ```
 No se preocupe por no entender lo que se debe hacer en el programa, ya que hay muchas indicaciones que se mostrarán por pantalla, contemplando incluso casos en los que ingrese valores incorrectos para el proceso a realizar.
 
