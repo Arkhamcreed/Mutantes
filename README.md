@@ -1,7 +1,7 @@
 # Mutantes
-*Nombre y Apellido:  Emiliano García
-*Legajo:  51543
-*Email:  emifacherogarcia@gmail.com
+* Nombre y Apellido:  Emiliano García
+* Legajo:  51543
+* Email:  emifacherogarcia@gmail.com
 
 ## ¿De qué trata el código?
 
@@ -59,7 +59,7 @@ De todas formas, aquí va una breve explicación de lo que el operador debe hace
 
 ## Ejemplo:
 
-Ingrese como filas: 
+Ingrese como filas (Sin espacios) a medida que el programa se lo indique: 
 
 ```
     ACCTTG
